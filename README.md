@@ -14,7 +14,9 @@
 5. **Конец.**
 ### Блок - схема
 <img width="371" height="581" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/6d9e8281-fb3d-4e7c-a2f7-3a8b0a2c7b3b" />
+
 ## 2. Реализация программы
+
 #include <stdio.h>
 #include <locale.h>
 
