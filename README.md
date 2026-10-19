@@ -14,3 +14,18 @@
 5. **Конец.**
 ### Блок - схема
 <img width="371" height="581" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/6d9e8281-fb3d-4e7c-a2f7-3a8b0a2c7b3b" />
+## 2. Реализация программы
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_ALL, "RUS");
+    float x, y;
+    printf("Введите x и y: ");
+    scanf("%f %f", &x, &y);
+    if (y <= x + 5 && x * x + y * y >= 3 && x <= 0 && y >= 0)
+        printf("Лежит\n");
+    else
+        printf("Не лежит\n");
+    return 2;
+}
